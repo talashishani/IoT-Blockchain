@@ -23,15 +23,28 @@ Download the Raspberry Pi Imager on the computer in order to write the operating
 
 Making the Raspberry Pi a Web Server:
 
-        `sudo apt update && sudo apt upgrade 
-         sudo apt install apache2 -y
-         sudo apt install php libapache2-mod-php -y
-         cd /var/www/html
-         sudo rm index.html
-         sudo nano index.php
-         sudo chown:pi index.php
-         sudo touch data.txt
-         sudo chown:pi data.txt`
+    sudo apt update && sudo apt upgrade 
+    sudo apt install apache2 -y
+    sudo apt install php libapache2-mod-php -y
+    cd /var/www/html
+    sudo rm index.html
+    sudo nano index.php
+    sudo chown:pi index.php
+    sudo touch data.txt
+    sudo chown:pi data.txt
+    
+## Connecting RPi with Arduino
+A python code will be executed to serially communicate with Arduino to collect the data and store it in data.txt file which will be displayed to the web page
+    
+## Result 
+
+![Kitt](https://user-images.githubusercontent.com/123273646/215347686-1f9d4b23-0d5d-42c4-b547-b8bb36e86c01.png)
+
+![Screenshot 2022-12-02 172019](https://user-images.githubusercontent.com/123273646/215347697-3f0054da-b204-4061-9926-1ca39ed6338b.png)
+
+![Screenshot (357)](https://user-images.githubusercontent.com/123273646/215347704-d3a8ea6b-48e4-4fe8-b2ee-7bcec45ddf68.png)
+
+
 
 
 
