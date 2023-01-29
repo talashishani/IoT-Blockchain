@@ -21,16 +21,17 @@ Download the Raspberry Pi Imager on the computer in order to write the operating
 
 ![Screenshot 2023-01-29 211737](https://user-images.githubusercontent.com/123273646/215347424-5cee238e-01b2-42b8-a83b-714a5da2635e.png)
 
-Making the Raspberry Pi a Web Server 
-         sudo apt update && sudo apt upgrade 
+Making the Raspberry Pi a Web Server:
+
+        `sudo apt update && sudo apt upgrade 
          sudo apt install apache2 -y
-pi$ sudo apt install php libapache2-mod-php -y
-pi$ cd /var/www/html
-pi$ sudo rm index.html
-pi$ sudo nano index.php  put the php code provided in Appendix B
-pi$ sudo chown:pi index.php
-pi$ sudo touch data.txt
-pi$ sudo chown:pi data.txt
+         sudo apt install php libapache2-mod-php -y
+         cd /var/www/html
+         sudo rm index.html
+         sudo nano index.php
+         sudo chown:pi index.php
+         sudo touch data.txt
+         sudo chown:pi data.txt`
 
 
 
